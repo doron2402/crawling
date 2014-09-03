@@ -1,9 +1,8 @@
 crawling
 ========
 
-java task
-
-
+## SQL Schema
+```
 DROP TABLE IF EXISTS `records`;
 
 CREATE TABLE `records` (
@@ -16,5 +15,4 @@ CREATE TABLE `records` (
   PRIMARY KEY (`RecordID`),
   KEY `xfinityID` (`xfinityID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
+```
